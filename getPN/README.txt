@@ -1,0 +1,1 @@
+java -jar GetPosNegPeptide.jar AGC/DMPK ST index.txt new.elm
