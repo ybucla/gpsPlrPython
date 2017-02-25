@@ -22,7 +22,8 @@ def pep2data(query,plist,aalist,weight,positive=False):
 	d = []
 	for i in xrange(0,len(aalist)):		
 		if aalist[i] in aadict:
-			d.append(aadict[aalist[i]] / float(N))
+			#d.append(aadict[aalist[i]] / float(N))
+			d.append(aadict[aalist[i]])
 		else:
 			d.append(0)
 	return d
